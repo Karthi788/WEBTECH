@@ -1,0 +1,30 @@
+/* h1{
+    color: blue;
+}
+h2,h3{
+    color: green;
+}
+#ro{
+    color: red;
+}
+.ind{
+    color: blueviolet;
+}
+th{
+    color: brown;
+}
+#ka{
+    color: chocolate;
+}
+#bh{
+    color: chartreuse;
+}
+#sa{
+    color: crimson;
+}
+.ps{
+    color: rgb(55, 12, 229)
+} */
+ *{
+    color: blue;
+ }

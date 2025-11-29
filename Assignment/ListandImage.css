@@ -1,0 +1,74 @@
+*{
+    scroll-behavior: smooth;
+    color: white;
+
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.3); /* dark overlay */
+    z-index: -1;
+}
+body{
+    background-image: url("images/background-image.webp"); 
+    background-size: cover;      
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;  
+    
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    display: flex;
+    align-items: center; 
+    margin-left: 150px; 
+}
+
+img{
+    border-radius: 20px;
+}
+
+h3{
+    margin-left: 150px; 
+}
+
+ul{
+    margin-left: 150px; 
+    text-align: justify;
+}
+
+ol{
+    margin-left: 150px;
+    text-align: justify;
+}
+
+#Br{
+    color: brown;
+}
+#MV{
+    color: green;
+}
+#ON{
+    color: purple;
+}
+#TO{
+    color: red;
+}
+#GP{
+    color: burlywood;
+}
+#CD{
+    color: blue;
+}
+#BM{
+    color: rgb(101, 32, 32);
+}
+#OG{
+    color: rgb(128, 128, 18);
+}
