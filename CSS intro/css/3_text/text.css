@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-shadow: 10px -2px 8px black;
+}
+
+p{
+    font-size: 21px;
+    text-align: justify;
+    word-spacing: 10px;
+    text-indent: 100px;
+    line-height: 1.5rem;
+}

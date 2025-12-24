@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    background-color: skyblue;
+    height: 100vh;
+}
+
+.box2{
+    background-color: red;
+    height: 300px;
+    width: 600px;
+}
+
+.box2 > .box3{
+    background-color: yellow;
+    /* height: 150px;
+    width: 300px; */
+
+    height: 30%;
+    width: 50%;
+}
+
+.box4{
+    background-color: blueviolet;
+    height: 400px;
+    padding-left: 40px;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+
+.box4 > .box5{
+    background-color: yellow;
+    height: 60%;
+    width: 70%;
+    font-size: 2rem;
+}
+
+.box6{
+    background-color: black;
+    margin: 20px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    width: 300px;
+    
+}
+
+.box6 > button{
+    display: block;
+    background-color: chocolate;
+    width: 100%;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: 1px solid red;
+}
+
+.box6 > button:hover{
+    background-color: brown;
+}

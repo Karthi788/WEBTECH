@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background: linear-gradient(red,white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 60%;
+    width: 75%;
+    background-color: white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQasKPDCewT1v2j4mJjfCN1rqH2SczejiwkoA&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}

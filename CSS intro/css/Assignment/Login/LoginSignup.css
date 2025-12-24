@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+}
+
+.inner{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.left{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: black;
+    width: 70vw;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+
+}
+
+.left > h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.left > .anchors{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    color: white;
+}
+
+.left > .anchors > a{
+    color: white;
+    text-decoration: none;
+}
+
+.left > form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    padding: 20px 40px;
+    border-radius: 20px ;
+    /* gap: 10px; */
+
+}
+
+.left > form > label{
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.left > form > input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left > form > button{
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+}
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right > img{
+    height: 400px;
+    width: 500px;
+}

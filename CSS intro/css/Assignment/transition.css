@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+     height: 100vh;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outin > h1{
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.outin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.outin > .inner{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+
+.outin > .inner:hover{
+    border-radius: 50%;
+    background-color: red;
+}

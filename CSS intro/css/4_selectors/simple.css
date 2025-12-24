@@ -1,0 +1,30 @@
+/*tagname selector*/
+header{
+    background-color: yellowgreen;
+}
+
+/*id selector*/
+#topic{
+    color: blue;
+}
+
+/*class selector*/
+.card{
+    background-color: red;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+/*universal selector*/
+*{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*group selector*/
+h3,h4,b, #topic, .italic{
+    letter-spacing: 3px;
+    text-decoration: underline;
+}

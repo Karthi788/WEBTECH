@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background: linear-gradient(black,white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
+    height: 300px;
+    width: 400px;
+    background: linear-gradient(red,yellow);
+    animation: movingBox 2s ease-in  infinite alternate;
+}
+
+.outer2{
+    height: 100vh;
+    background:  linear-gradient(to top,red,white);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.outer2 > .card3{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    animation: movingBox2 2s ease-in infinite alternate ;
+}
+
+.outer2 > .card4{
+    height: 300px;
+    width: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer2 > .card4 > .circle{
+    height: 200px;
+    width: 200px;
+    border-top: 2px solid green;
+    border-radius: 50%;
+    animation: movingBox2 2s ease-in infinite;
+}
+
+.outer3{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.outer3 > .orange{
+    height: 33vh;
+    width: 100%;
+    background-color: orange;
+}
+
+.outer3 > .white{
+    height: 33vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.outer3 > .white > .img{
+    border-radius: 50%;
+}
+
+.outer3 > .white > .img > img{
+    border-radius: 50%;
+    animation: chackra 3s linear infinite;
+}
+
+
+.outer3 > .green{
+    height: 34vh;
+    width: 100%;
+    background-color: green;
+}
+
+
+
+
+@keyframes movingBox {
+    from{
+    }
+    to{
+        transform: translate(-400px);
+        background: linear-gradient(blue,black);
+        border-radius: 50%;
+    }
+}
+
+@keyframes movingBox2 {
+    from{
+    }
+    to{
+        transform: rotate(360deg);
+        background-color: black;
+    }
+    
+}
+
+@keyframes chackra {
+    from{
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+

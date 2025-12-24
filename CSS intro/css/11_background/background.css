@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer1{
+    height: 100vh;
+    background-image: url(../Assignment/images/ironman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.outer2{
+    height: 100vh;
+    background-image: url(../Assignment/images/captain_america.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.outer3{
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/736x/69/e6/0a/69e60a3e2b0bfcd94328386e3bee5a7c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 104px;
+}
+
+.outer4{
+    height: 100vh;
+    background-image: url(../Assignment/images/hulk.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    height: 100vh;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.background > .container{
+    display: flex; 
+    gap: 160px; 
+}
+
+.background > .container > .card{
+    width: 350px;
+    padding: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 3px 5px 2px black;
+    
+}
+
+.background > .container > .card > h1{
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.background > .container > .card > p{
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+}

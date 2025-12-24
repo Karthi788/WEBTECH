@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery{
+    height: 100vh;
+    background-color: lightgray;
+    /* display: inline-block; */
+    padding: 20px 40px;
+}
+
+.gallery > h1{
+    text-align: center;
+}
+
+
+.gallery > .card{
+    width: 300px;
+    background-color: white;
+    padding: 5px 30px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 20px auto;
+    margin-left: 40px;
+    
+}
+
+.gallery > .card > h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   ;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+.gallery > .card > p{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.gallery > .card > .rupees{
+    text-align: center;
+}
+
+.gallery > .card > button{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+}
