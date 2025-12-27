@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,blueviolet,white);
+    position: relative;
+}
+
+.inner{
+    width: 40%;
+    height: 70%;
+    background-color: white;
+    position: relative;
+    border-radius: 20px;
+    background: linear-gradient(to left,red,orange);
+}
+
+.inner > .Burger{
+    height: 280px;
+    width: 240px;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+.inner > .coke{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+.inner > .offer{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    animation: rotating 1s  linear infinite alternate;
+}
+
+@keyframes rotating {
+    from{
+        transform: rotate(20deg);
+    }
+    to{
+        transform: rotate(-20deg);
+    }
+}

@@ -40,3 +40,53 @@ Stack: Canceled: Canceled
 Extra context: {
   "message": "Canceled"
 }
+2025-12-24T05:57:44.462Z INFO Is remote: false
+2025-12-24T05:57:44.473Z INFO Starting Local. Installation path: undefined
+2025-12-24T05:57:44.477Z INFO [MainProvider] Creating new MainProvider instance...
+2025-12-24T05:57:44.489Z INFO [TabsManager] Code view listener set up at initialization
+2025-12-24T05:57:44.495Z INFO Installation path exists: d:\webTech\Task
+2025-12-24T05:57:44.511Z INFO Initializing database with URL: file:C:\Users\KARTHI\AppData\Local\Temp\pythagora-temp\pythagora.db
+2025-12-24T05:57:44.576Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-12-24T05:57:44.577Z INFO Database initialized successfully
+2025-12-24T05:57:44.579Z INFO [Migration] Checking for database migration...
+2025-12-24T05:57:47.754Z INFO [Migration] No migration needed
+2025-12-24T05:57:47.885Z INFO [TabsManager] First file opened, triggering split view
+2025-12-24T05:57:47.889Z INFO [MainProvider] First file opened, creating split view
+2025-12-24T06:03:43.345Z INFO [TabsManager] First file opened, triggering split view
+2025-12-24T06:03:43.345Z INFO [MainProvider] First file opened, creating split view
+2025-12-24T06:03:56.640Z INFO [TabsManager] First file opened, triggering split view
+2025-12-24T06:03:56.641Z INFO [MainProvider] First file opened, creating split view
+2025-12-24T06:04:01.957Z INFO [TabsManager] First file opened, triggering split view
+2025-12-24T06:04:01.958Z INFO [MainProvider] First file opened, creating split view
+2025-12-24T06:48:26.993Z INFO [TabsManager] First file opened, triggering split view
+2025-12-24T06:48:26.994Z INFO [MainProvider] First file opened, creating split view
+2025-12-24T06:48:31.404Z INFO [TabsManager] First file opened, triggering split view
+2025-12-24T06:48:31.405Z INFO [MainProvider] First file opened, creating split view
+2025-12-24T06:48:34.631Z INFO [TabsManager] First file opened, triggering split view
+2025-12-24T06:48:34.631Z INFO [MainProvider] First file opened, creating split view
+2025-12-26T04:16:34.180Z INFO Closing entire Pythagora extension...
+2025-12-26T04:16:34.205Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+	at new wU (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120470)
+	at l5.U (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125080)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122574)
+	at cA.g (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:41228)
+	at cA.executeCommand (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:40732)
+	at Object.executeCommand (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:102269)
+	at closeEntirePythagoraExtension (c:\Users\KARTHI\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:542:31)
+	at Object.deactivate (c:\Users\KARTHI\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:409:15)
+	at HX.eb (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11850)
+	at file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10000
+	at Array.map (<anonymous>)
+	at HX.$ (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:9988)
+	at HX.terminate (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10231)
+	at yN.terminate (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Us (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:11129)
+	at MessagePortMain.<anonymous> (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7604)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+Extra context: {
+  "message": "Canceled"
+}

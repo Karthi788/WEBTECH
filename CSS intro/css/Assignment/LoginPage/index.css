@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.outer> .upper{
+    height: 50vh;
+    width: 100%;
+    background-color: blue;
+}
+
+.outer> .center{
+    height: 65%;
+    width: 80%;
+    position: absolute;
+    display: flex;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+}
+
+.outer> .lower{
+    height: 50vh;
+    width: 100%;
+    background-color: skyblue;
+}
+
+.left{
+    flex-basis: 45%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    flex-basis: 55%;
+    padding: 40px;
+    /* background-color: red; */
+}
+
+.right> img{
+    height: 60%;
+    width: 90%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.right> h1{
+    text-align: justify;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+}
+
+.right> p{
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+footer> .line{
+    height: 4px;
+    width: 120px;
+    background-color: blue;
+
+}
+
+.left> form{
+    width: 300px;
+}
+
+.left> h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.left> form> label{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.left> form> input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.left> form> button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.left> form> p{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.left> form> p> a{
+    text-decoration: none;
+}
