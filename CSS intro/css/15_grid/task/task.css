@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background: linear-gradient(to right, orange,red);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+   
+    /* position: relative; */
+}
+
+.outer>h1{
+    cursor: pointer;
+    position: relative;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    animation: moveup 2s ease-in infinite;
+}
+
+.outer > h1::after{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.outer> h1:hover::after{
+    width: 100%;
+}
+
+.inner{
+    height: 80%;
+    width: 90%;
+    /* background-color: white; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.inner> .box{
+    /* border: 2px solid white; */
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.inner> #box1{
+    grid-row: span 2;
+    background-image: url(./images/nature1.jpg);
+}
+.inner> #box2{
+    background-image: url(./images/nature2.webp);
+}
+.inner> #box3{
+    background-image: url(./images/nature3.webp);
+}
+.inner> #box4{
+    grid-column: span 2;
+    background-image: url(./images/nature4.jpg);
+}
+.inner> #box5{
+    background-image: url(./images/nature5.jpg);
+}
+.inner> #box6{
+    background-image: url(./images/nature6.jpg);
+}
+.inner> #box7{
+    background-image: url(./images/nature7.jpg);
+}
+
+.inner> .box:hover{
+    background-position: center;
+}
+
+
+
+@keyframes moveup {
+    0%{
+        transform: translateY(-60px);
+        opacity: 0;
+    }
+    20%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    80%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+}
