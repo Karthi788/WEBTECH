@@ -90,3 +90,59 @@ Stack: Canceled: Canceled
 Extra context: {
   "message": "Canceled"
 }
+2026-01-02T07:20:46.401Z INFO Is remote: false
+2026-01-02T07:20:46.404Z INFO Starting Local. Installation path: undefined
+2026-01-02T07:20:46.405Z INFO [MainProvider] Creating new MainProvider instance...
+2026-01-02T07:20:46.409Z INFO [TabsManager] Code view listener set up at initialization
+2026-01-02T07:20:46.411Z INFO Installation path exists: d:\webTech\javascript
+2026-01-02T07:20:46.413Z INFO Initializing database with URL: file:C:\Users\KARTHI\AppData\Local\Temp\pythagora-temp\pythagora.db
+2026-01-02T07:20:46.426Z INFO Database file exists, skipping prisma generate/push for faster startup
+2026-01-02T07:20:46.427Z INFO Database initialized successfully
+2026-01-02T07:20:46.429Z INFO [Migration] Checking for database migration...
+2026-01-02T07:20:46.844Z INFO [Migration] No migration needed
+2026-01-02T07:21:24.771Z INFO [TabsManager] First file opened, triggering split view
+2026-01-02T07:21:24.771Z INFO [MainProvider] First file opened, creating split view
+2026-01-02T07:28:07.216Z INFO [TabsManager] First file opened, triggering split view
+2026-01-02T07:28:07.217Z INFO [MainProvider] First file opened, creating split view
+2026-01-02T07:28:12.071Z INFO [TabsManager] First file opened, triggering split view
+2026-01-02T07:28:12.071Z INFO [MainProvider] First file opened, creating split view
+2026-01-02T08:15:57.955Z INFO Closing entire Pythagora extension...
+2026-01-02T08:15:57.979Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+	at new wU (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120470)
+	at l5.U (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125080)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122574)
+	at cA.g (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:41228)
+	at cA.executeCommand (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:40732)
+	at Object.executeCommand (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:102269)
+	at closeEntirePythagoraExtension (c:\Users\KARTHI\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:542:31)
+	at Object.deactivate (c:\Users\KARTHI\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:409:15)
+	at HX.eb (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11850)
+	at file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10000
+	at Array.map (<anonymous>)
+	at HX.$ (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:9988)
+	at HX.terminate (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10231)
+	at yN.terminate (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Us (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:11129)
+	at MessagePortMain.<anonymous> (file:///d:/Users/KARTHI/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7604)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+Extra context: {
+  "message": "Canceled"
+}
+2026-01-03T09:04:48.764Z INFO Is remote: false
+2026-01-03T09:04:48.770Z INFO Starting Local. Installation path: undefined
+2026-01-03T09:04:48.771Z INFO [MainProvider] Creating new MainProvider instance...
+2026-01-03T09:04:48.772Z INFO [TabsManager] Code view listener set up at initialization
+2026-01-03T09:04:48.773Z INFO Installation path exists: d:\webTech\javascript
+2026-01-03T09:04:48.774Z INFO Initializing database with URL: file:C:\Users\KARTHI\AppData\Local\Temp\pythagora-temp\pythagora.db
+2026-01-03T09:04:48.782Z INFO Database file exists, skipping prisma generate/push for faster startup
+2026-01-03T09:04:48.782Z INFO Database initialized successfully
+2026-01-03T09:04:48.804Z INFO [Migration] Checking for database migration...
+2026-01-03T09:04:49.764Z INFO [Migration] No migration needed
+2026-01-03T09:04:49.791Z INFO [TabsManager] First file opened, triggering split view
+2026-01-03T09:04:49.792Z INFO [MainProvider] First file opened, creating split view
+2026-01-03T09:05:17.204Z INFO [TabsManager] First file opened, triggering split view
+2026-01-03T09:05:17.205Z INFO [MainProvider] First file opened, creating split view
